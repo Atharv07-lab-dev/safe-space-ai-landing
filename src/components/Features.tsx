@@ -1,14 +1,6 @@
 import { FileText, Headphones, Image as ImageIcon, Video } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { useState } from "react";
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogHeader,
-  DialogTitle,
-} from "@/components/ui/dialog";
 
 const features = [
   {
@@ -16,7 +8,7 @@ const features = [
     description: "Detect harmful or unsafe language.",
     icon: FileText,
     color: "blue",
-    action: "modal",
+    link: "https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/10178977978226885a47df17ed28a9eb/1e8fa278-aac0-49cf-868f-a50d581390a7/index.html",
   },
   {
     title: "Audio Detection",
@@ -42,12 +34,8 @@ const features = [
 ];
 
 const Features = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
-
   const handleFeatureClick = (feature: typeof features[0]) => {
-    if (feature.action === "modal") {
-      setIsModalOpen(true);
-    } else if (feature.link) {
+    if (feature.link) {
       window.open(feature.link, "_blank", "noopener,noreferrer");
     }
   };
@@ -97,7 +85,7 @@ const Features = () => {
                     className="w-full group-hover:shadow-medium transition-shadow"
                     aria-label={`Learn more about ${feature.title}`}
                   >
-                    {feature.action === "modal" ? "Coming Soon" : "Try Now"}
+                    Try Now
                   </Button>
                 </CardContent>
               </Card>
@@ -105,20 +93,6 @@ const Features = () => {
           })}
         </div>
       </div>
-
-      <Dialog open={isModalOpen} onOpenChange={setIsModalOpen}>
-        <DialogContent className="sm:max-w-md">
-          <DialogHeader>
-            <DialogTitle className="text-2xl">Text Analysis Coming Soon</DialogTitle>
-            <DialogDescription className="text-base pt-4">
-              Our advanced text analysis feature is currently under development. Stay tuned for updates!
-            </DialogDescription>
-          </DialogHeader>
-          <div className="flex justify-end pt-4">
-            <Button onClick={() => setIsModalOpen(false)}>Close</Button>
-          </div>
-        </DialogContent>
-      </Dialog>
     </section>
   );
 };
