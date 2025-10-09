@@ -8,7 +8,7 @@ const features = [
     description: "Detect harmful or unsafe language.",
     icon: FileText,
     color: "blue",
-    link: "https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/10178977978226885a47df17ed28a9eb/1e8fa278-aac0-49cf-868f-a50d581390a7/index.html",
+    link: "https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/76622eced9982506fe5ed81ee57805ae/e6cca84d-18a8-4b76-b507-dba2e097842c/index.html",
   },
   {
     title: "Audio Detection",
