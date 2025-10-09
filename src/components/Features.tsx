@@ -29,7 +29,7 @@ const features = [
     description: "Detect pirated videos using blockchain.",
     icon: Video,
     color: "purple",
-    link: "https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/bc2abfd9a62894539e5bd0645eda4d0e/48142fe0-438f-48b8-9490-e8d8d7df6d08/index.html",
+    link: "https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/21fdff3d36e1ce181053f6b33c2a9bc7/237b323a-6657-47f8-9cf4-e8b3c54750eb/index.html",
   },
 ];
 
