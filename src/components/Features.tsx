@@ -22,7 +22,7 @@ const features = [
     description: "Analyze visuals for explicit material.",
     icon: ImageIcon,
     color: "green",
-    link: "https://superably-nonargumentative-dotty.ngrok-free.dev/",
+    link: "https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/51fe5ea24082b531f3168d60f2f6f27d/954aba1c-94aa-4dad-890d-79f664db4cf9/index.html",
   },
   {
     title: "Video Piracy Detection",
