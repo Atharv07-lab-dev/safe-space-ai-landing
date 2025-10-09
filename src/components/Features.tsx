@@ -29,7 +29,7 @@ const features = [
     description: "Detect pirated videos using blockchain.",
     icon: Video,
     color: "purple",
-    link: "https://rachelle-opprobrious-maurita.ngrok-free.dev/",
+    link: "https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/831f7eb75161765d58b918f6fc9deb57/202678f7-4ef3-457d-a5f6-330df93f3625/index.html",
   },
 ];
 
